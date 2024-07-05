@@ -26,7 +26,7 @@ app:
     - name: OTEL_EXPORTER_OTLP_ENTPOINT
       value: "otel-collector.fmhwong-0627.svc.cluster.local:4317"
     - name: OTEL_METRIC_EXPORT_INTERVAL
-      value: 100
+      value: "100"
     - name: OTEL_SDK_DISABLED
       value: "false"
   # List of variables that can be referenced in server.xml
