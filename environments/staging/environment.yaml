@@ -28,7 +28,7 @@ app:
     - name: OTEL_METRIC_EXPORT_INTERVAL
       value: 100
     - name: OTEL_SDK_DISABLED
-      value: false
+      value: "false"
   # List of variables that can be referenced in server.xml
   # Liberty encrypted values are supported
   variables:
