@@ -24,7 +24,7 @@ app:
     - name: JVM_ARGS # q: make that as a top level 'jvmArguments' property?
       value: "-DenvironmentType=stage"
     - name: OTEL_EXPORTER_OTLP_ENDPOINT
-      value: "http://otel-collector.fmhwong-0627.svc.cluster.local:4317"
+      value: "http://otel-collector.fmhwong-0712.svc.cluster.local:4317"
     - name: OTEL_METRIC_EXPORT_INTERVAL
       value: "100"
     - name: OTEL_SDK_DISABLED
